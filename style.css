@@ -319,5 +319,9 @@ input:active {
 	top: 25px;
 }
 
+.btn span {
+    position: relative;
+    z-index: 99991;
+}
 
 /* End of Form */

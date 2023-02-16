@@ -319,7 +319,7 @@ input:active {
 	top: 25px;
 }
 
-.btn span {
+.button span {
     position: relative;
     z-index: 99991;
 }

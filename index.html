@@ -9,13 +9,15 @@
     <!-- Fontasome Library -->
     <link rel="stylesheet" href="css/all.min.css">  
     <!-- Container Cover -->
-    <link rel="stylesheet" href="container_cover.css">
+    <link rel="stylesheet" href="css/container_cover.css">
     <!-- Desgin System 4 Colors -->
-    <link rel="stylesheet" href="desgin_system.css">
-    <!-- Loading System -->
-    <link rel="stylesheet" href="loading.css">
+    <link rel="stylesheet" href="css/desgin_system.css">
+    <!-- Loading Css System -->
+    <link rel="stylesheet" href="css/loading.css">
     <!-- Main Css File -->
     <link rel="stylesheet" href="style.css">
+    <!-- MediaQ File -->
+    <link rel="stylesheet" href="mediaQ.css">
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -23,20 +25,9 @@
 </head>
 <body>
 <!-- === Preloader Start === -->
-<div id="preloader">
-    <div class="main">
-        <div class="balls balls-1">
-            <div class="ball ball--1"></div>
-            <div class="ball ball--2"></div>
-            <div class="ball ball--3"></div>
-            <div class="ball ball--4"></div>
-        </div>
-        <div class="balls balls-2">
-            <div class="ball ball--1"></div>
-            <div class="ball ball--2"></div>
-            <div class="ball ball--3"></div>
-            <div class="ball ball--4"></div>
-        </div>
+<div id="bgLoading">
+    <div class="preloader">
+        <span class="loader"></span>
     </div>
 </div>
 <!-- === Preloader End === -->
@@ -69,18 +60,30 @@
                 <div class="heading">
                     <h2>مرحبا بك!</h2>
                     <p>مسابقة <span>رمضان</span> للإسئلة الإسلامية! ماذا تنتظر ..</p>
-                    <a href="#form">جرب الآن!</a>
+                    <!-- Button -->
+                    <div class="button">
+                        <div class="wrapper">
+                            <a id="btn" class="btn-1" href="#form"><span>جرب الآن</span></a>
+                        </div>
+                    </div>
                 </div>
                 <div class="cover-2">
                     <img src="images/cover.png" title="يمكنك الإجابة علي الإسئلة!!" alt="pro">
                 </div>
             </div>
-                <div class="footer">
-                    <h5>© Egyptian House of Representatives 2023 - All rights reserved.</h5>
-                    <h5>Designed By : MrSolom . ⚚#9090 | Backend by: hetlar#0001</h5>
-                </div>
                 <!-- Form Quest -->
                 <div id="form" class="form">
+                    <div class="container-cover-2">
+                        <div class="stars">
+                            <div class="star-4"></div>
+                            <div class="star-4"></div>
+                            <div class="star-5"></div>
+                            <!-- <div class="star-6"></div> -->
+                            <div class="lantern-6"></div>
+                            <div class="lantern-7"></div>
+                            <div class="lantern-8"></div>
+                        </div>
+                    </div>
                     <div class="title-heading">
                         <h2>مرحبا مره آخري</h2>
                         <p>يمكنك الآن الإجابة عن الإسئلة!!</p>
@@ -101,11 +104,15 @@
                             <!-- Button -->
                             <div class="button">
                                 <div class="wrapper">
-                                    <a class="btn" href="#"><span>إرسال</span></a>
+                                    <a id="btn" class="btn" href="done.html"><span>إرسـال</span></a>
                                 </div>
                             </div>
                             <!-- <a href="#" class="button-submit">Send <i class="fa-solid fa-search"></i> </a>                            -->
                         </div>
+                    </div>
+                    <div class="footer">
+                        <h5 class="copy">© Egyptian House of Representatives 2023 - All rights reserved.</h5>
+                        <h5>Designed By : MrSolom . ⚚#9090 | Backend by: hetlar#0001</h5>
                     </div>
                 </div>
             </div>
@@ -113,14 +120,5 @@
     </div>
 </body>
     <!-- Scripts -->
-    <script src="js/jquery.js"></script>
-    <script src="js/main.js"></script>
     <script src="main.js"></script>
-    <script src="js/validator.min.js"></script> 
-    <script src="js/scripts.js"></script> 
-    <script src="js/jquery-2.1.0.min.js"></script>
-    <script src="js/owl-carousel.js"></script>
-    <script src="js/scrollreveal.min.js"></script>
-    <script src="js/custom.js"></script>
-    <script src="button.js"></script>
 </html>
